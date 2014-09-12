@@ -1,0 +1,16 @@
+[
+{
+  "modid": "SteamOverlay",
+  "name": "Steam Overlay mod",
+  "description": "This mod adds a steam like overlay to your game when pressing shift + tab",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Falling_Dutchman"],
+  "credits": "a lot of people",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
