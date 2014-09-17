@@ -1,7 +1,7 @@
 package com.FallingDutchman.SteamOverlay.Client.Gui;
 
-import com.FallingDutchman.SteamOverlay.Reference.FormattingCode;
-import com.FallingDutchman.SteamOverlay.Reference.References;
+import com.FallingDutchman.SteamOverlay.Util.FormattingCode;
+import com.FallingDutchman.SteamOverlay.Util.References;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.renderer.OpenGlHelper;

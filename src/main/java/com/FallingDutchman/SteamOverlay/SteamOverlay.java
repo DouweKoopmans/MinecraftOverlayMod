@@ -6,7 +6,7 @@ import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 
-import com.FallingDutchman.SteamOverlay.Reference.References;
+import com.FallingDutchman.SteamOverlay.Util.References;
 
 
 @Mod(modid = References.MOD_ID, name = References.MOD_NAME, version = References.VERSION)

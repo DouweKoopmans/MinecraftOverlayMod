@@ -1,4 +1,4 @@
-package com.FallingDutchman.SteamOverlay.Reference;
+package com.FallingDutchman.SteamOverlay.Util;
 
 public final class References
 {
