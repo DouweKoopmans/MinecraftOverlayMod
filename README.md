@@ -1,4 +1,4 @@
-##SteamOverlay mod
+##MinecraftOverlayMod
 
 this mod adds a overlay similar to the steam overlay, it also includes a friends system and a way send easy direct messages to your friends (or at least it will).
 
