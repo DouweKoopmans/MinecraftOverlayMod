@@ -10,17 +10,17 @@ import org.lwjgl.input.Keyboard;
 
 public class KeyRegister
 {
-    public static KeyBinding SO = new KeyBinding("Steam Overlay", Keyboard.KEY_I, "key.categories.misc");
+    public static KeyBinding MO = new KeyBinding("Open Minecraft Overlay", Keyboard.KEY_I, "key.categories.misc");
 
     static {
-        ClientRegistry.registerKeyBinding(SO);
+        ClientRegistry.registerKeyBinding(MO);
     }
 
     @SubscribeEvent
     public void KeyInputEvent(InputEvent.KeyInputEvent event)
     {
         Minecraft mc = Minecraft.getMinecraft();
-        if(SO.isPressed() && mc.currentScreen == null){
+        if(MO.isPressed() && mc.currentScreen == null){
             mc.displayGuiScreen(new SoGui());
         }
     }
