@@ -18,8 +18,8 @@ buildscript {
 apply plugin: 'forge'
 
 version = "1.0"
-group= "com.FallingDutchman.SteamOverlay" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "SteamOverlay"
+group= "com.FallingDutchman.MinecraftOverlay" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "MinecraftOverlay"
 
 minecraft {
     version = "1.7.10-10.13.0.1180"

@@ -1,6 +1,6 @@
 package com.FallingDutchman.SteamOverlay;
 
-import com.FallingDutchman.SteamOverlay.Client.Gui.SoGui;
+import com.FallingDutchman.SteamOverlay.Client.Gui.MoGui;
 import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.InputEvent;
@@ -21,7 +21,7 @@ public class KeyRegister
     {
         Minecraft mc = Minecraft.getMinecraft();
         if(MO.isPressed() && mc.currentScreen == null){
-            mc.displayGuiScreen(new SoGui());
+            mc.displayGuiScreen(new MoGui());
         }
     }
 }

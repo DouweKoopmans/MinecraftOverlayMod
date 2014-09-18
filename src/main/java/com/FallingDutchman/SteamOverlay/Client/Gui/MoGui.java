@@ -11,7 +11,7 @@ import java.awt.*;
 
 import static org.lwjgl.opengl.GL11.*;
 
-public class SoGui extends GuiScreen
+public class MoGui extends GuiScreen
 {
     @Override
     public void initGui()

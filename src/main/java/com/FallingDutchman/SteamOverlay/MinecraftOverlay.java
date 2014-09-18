@@ -10,10 +10,10 @@ import com.FallingDutchman.SteamOverlay.Util.References;
 
 
 @Mod(modid = References.MOD_ID, name = References.MOD_NAME, version = References.VERSION)
-public class SteamOverlay
+public class MinecraftOverlay
 {
     @Instance
-    public static SteamOverlay instance;
+    public static MinecraftOverlay instance;
 
     @EventHandler
     public void onInit(FMLInitializationEvent event)
